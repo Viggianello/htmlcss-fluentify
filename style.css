@@ -139,7 +139,19 @@ header {
     width: 150px;
     float: left;
     margin: 70px 10%;
-    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ #prima{
+    background-image: url(images/profile.svg);
+}
+
+#seconda{
+    background-image: url(images/computer.svg);
+}
+
+#terza{
+    background-image: url(images/doc.svg);
 }
 
 .body-block-blue{
