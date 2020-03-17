@@ -119,6 +119,7 @@ header {
     font-weight: normal;
     margin-bottom: 40px;
 }
+/* fine header*/
 .body-block{
     height: 1200px;
     text-align: center;
@@ -129,16 +130,17 @@ header {
     font-size: 20px;
 }
 
-#intestazione p:nth-child(2){
+#intestazione p:nth-child(2),.grey{
     margin-top: 10px;
-    color: grey;
+    color: #999;
 }
-
+#colonna-uno,#colonna-due,#colonna-tre{
+    float: left;
+    margin: 70px 10%;
+}
 .blocco-immagine{
     height: 150px;
     width: 150px;
-    float: left;
-    margin: 70px 10%;
     background-repeat: no-repeat;
 }
 
@@ -157,6 +159,21 @@ header {
 .body-block-blue{
     height: 500px;
     background-color: #0D325A;
+}
+
+.space{
+height: 190px;
+}
+
+.verde{/*potevo usare anche questo selettore senza dare la classe: #colonna-uno p,#colonna-due p,#colonna-tre p*/
+    color: #7fb802;
+}
+.body-block hr {
+    margin-top: 10px;
+    margin-left: 50px;
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
 }
 
 footer{
