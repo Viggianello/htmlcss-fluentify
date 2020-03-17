@@ -119,3 +119,16 @@ header {
     font-weight: normal;
     margin-bottom: 40px;
 }
+.body-block{
+    height: 1200px;
+}
+
+.body-block-blue{
+    height: 500px;
+    background-color: #0D325A;
+}
+
+footer{
+    height: 300px;
+    background-color: #17406b;
+}
